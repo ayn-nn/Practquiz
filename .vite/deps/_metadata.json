@@ -2,7 +2,36 @@
   "hash": "e08e0be7",
   "configHash": "09875625",
   "lockfileHash": "7237d441",
-  "browserHash": "65de742f",
-  "optimized": {},
-  "chunks": {}
+  "browserHash": "06f775ae",
+  "optimized": {
+    "@popperjs/core/dist/umd/popper.js": {
+      "src": "../../node_modules/@popperjs/core/dist/umd/popper.js",
+      "file": "@popperjs_core_dist_umd_popper__js.js",
+      "fileHash": "24481076",
+      "needsInterop": true
+    },
+    "jquery": {
+      "src": "../../node_modules/jquery/dist/jquery.js",
+      "file": "jquery.js",
+      "fileHash": "211a38ea",
+      "needsInterop": true
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "a32fb9e9",
+      "needsInterop": false
+    },
+    "bootstrap": {
+      "src": "../../node_modules/bootstrap/dist/js/bootstrap.esm.js",
+      "file": "bootstrap.js",
+      "fileHash": "2916b99c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-HKJ2B2AA": {
+      "file": "chunk-HKJ2B2AA.js"
+    }
+  }
 }
